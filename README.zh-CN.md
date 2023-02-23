@@ -3,6 +3,7 @@
 ```bash
 cle plugins i /path/to/cle-plugin-mqtt-x.x.x.cp
 ```
+参考代码仓库：[https://github.com/coreaiot/rtls-cle-examples.git](https://github.com/coreaiot/rtls-cle-examples.git)
 
 ## nodejs 代码示例
 ```js
@@ -158,4 +159,10 @@ using (var mqttClient = mqttFactory.CreateMqttClient())
     while (true)
         Console.ReadLine();
 }
+```
+
+# 编译此插件
+
+```bash
+npm run build && npm run pack
 ```
