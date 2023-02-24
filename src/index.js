@@ -13,6 +13,7 @@ function createMqttClient(config) {
     port: config.port,
     protocolVersion: config.protocolVersion,
     reconnectPeriod: 1000,
+    rejectUnauthorized: false,
   };
   if (config.protocolVersion === 3) {
     opt.protocolId = 'MQIsdp';
