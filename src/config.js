@@ -38,7 +38,7 @@ module.exports = {
     {
       name: 'compress',
       type: 'switch',
-      description: 'Compress data using gzip',
+      description: 'Compress data using deflate',
       value: true,
     },
     {

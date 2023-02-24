@@ -5,7 +5,7 @@ module.exports = {
     'Topic': '主题',
     'Username': '用户名',
     'Password': '密码',
-    'Compress data using gzip': '使用 gzip 压缩数据',
+    'Compress data using deflate': '使用 deflate 压缩数据',
     'Post outdated tags': '发送过期信标数据',
     'MQTT Protocol Version': 'MQTT 协议版本',
   },
