@@ -1,7 +1,7 @@
 # CLE 插件 MQTT Pusher
 
 ```bash
-cle plugins i /path/to/cle-plugin-mqtt-x.x.x.cp
+cle plugins i /path/to/cle-plugin-mqtt-pusher-x.x.x.cp
 ```
 参考代码仓库：[https://github.com/coreaiot/rtls-cle-examples.git](https://github.com/coreaiot/rtls-cle-examples.git)
 
